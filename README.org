@@ -1,22 +1,22 @@
-* nyan-bar
+* nyan-mode
 
 /Emacs's nyan-mode for Web. 🌈/  
 
 *Usage*
 #+BEGIN_SRC shell
 # yarn
-yarn add nyan-bar
+yarn add nyan-mode
 # npm
-npm install nyan-bar
+npm install nyan-mode
 #+END_SRC
 
 #+BEGIN_SRC typescript
-  import { NyanBar } from 'nyan-bar';
+  import { NyanMode } from 'nyan-mode;
 
   window.onload = () => {
     const e = document.getElementById('div');
     const scrollTarget = document.getElementById('box');
-    NyanBar.New({
+    NyanMode.New({
       width: 1000,
       height: 64
     }).create(e!, scrollTarget!);
