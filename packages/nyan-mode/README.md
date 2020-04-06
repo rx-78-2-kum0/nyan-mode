@@ -19,7 +19,8 @@ window.onload = () => {
   const scrollTarget = document.getElementById('box');
   NyanMode.New({
     width: 1000,
-    height: 64
+    height: 64,
+    wavy: false,
   }).create(e!, scrollTarget!);
 };
 ```
